@@ -2,7 +2,7 @@ package statisticker;
 
 abstract class EmailAlert implements IAlerter {
 
-  public boolean emailDeliverd;
+  public boolean emailSent;
 
   @Override
   public void check() {
