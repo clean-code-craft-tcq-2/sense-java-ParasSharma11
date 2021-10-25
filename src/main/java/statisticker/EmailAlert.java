@@ -6,7 +6,7 @@ abstract class EmailAlert implements IAlerter {
 
   @Override
   public void check() {
-    this.emailDeliverd = true;
+    this.emailSent = true;
   }
 
 }
