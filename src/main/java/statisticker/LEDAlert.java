@@ -6,7 +6,7 @@ public class LEDAlert implements IAlerter {
 
   @Override
   public void check() {
-    this.ledWorks = true;
+    this.ledGlows = true;
 
   }
 
