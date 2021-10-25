@@ -1,6 +1,6 @@
 package statisticker;
 
-abstract class EmailAlert implements IAlerter {
+public class EmailAlert implements IAlerter {
 
   public boolean emailSent;
 
